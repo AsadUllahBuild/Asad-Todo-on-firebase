@@ -1,0 +1,211 @@
+.main-container {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333333; 
+}
+
+input[type="email"],
+input[type="password"],
+input[type="file"],
+button {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    width: 90%;
+    margin-bottom: 10px;
+    
+}
+#name{
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.register-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.main-page {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+
+.todo-container {
+    max-width: 50%;
+    margin: 20px auto;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.top-section {
+    text-align: right;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.top-section div{
+    display: flex;
+    gap: 10px;
+} 
+.top-section h1{
+    margin-left: 20px;
+    color: #11273f;
+}
+
+.logout-btn {
+    /* padding: 10px 16px; */
+    border-radius: 15px;
+    border: none;
+    background-color: #11273f;
+    color: white;
+    cursor: pointer;
+    /* width: 15%; */
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+
+.user-profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.username {
+    color: #333;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 2px solid #007bff; /* Blue border */
+    margin-top: 10px;
+}
+
+.add-todo {
+    margin-top: 20px;
+}
+.todo-form{
+    align-items: center;
+}
+
+.todo-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.add-btn {
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff; /* Blue add button */
+    color: white;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+.todo-list {
+    margin-top: 20px;
+    
+    
+}
+.card{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.pera{
+    font-size: 25px;
+    color: #333333;
+}
+.card-btn{
+    display: flex;
+    gap: 20px;
+}
+#delete{
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+#update{
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+
