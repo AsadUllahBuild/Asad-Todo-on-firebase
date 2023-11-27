@@ -98,8 +98,6 @@ form {
     margin-top: 100px;
     padding: 20px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: column;
     gap: 15px;
     align-items: center;

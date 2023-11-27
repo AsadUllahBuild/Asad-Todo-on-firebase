@@ -58,16 +58,13 @@ googleBtn.addEventListener('click', () => {
 
 });
 
-
-//github authentication
+// GitHub Authentication
 const githubProvider = new GithubAuthProvider();
 githubBtn.addEventListener('click', () => {
     signInWithPopup(auth, githubProvider)
         .then((result) => {
             const credential = GithubAuthProvider.credentialFromResult(result);
             const token = credential.accessToken;
-
-            // The signed-in user info.
             const user = result.user;
             console.log(token);
             console.log(user);
@@ -88,7 +85,22 @@ githubBtn.addEventListener('click', () => {
 })
 
 
+// 
+// githubBtn.addEventListener('click', ()=>{
+//   signInWithPopup(auth, provider)
+//   .then((result) => {
+//     const credential = GithubAuthProvider.credentialFromResult(result);
+//     const token = credential.accessToken;
+//     console.log(token);
+//     const user = result.user;
+//     console.log(user);
+//     window.location='home.html'
+//   }).catch((error) => {
+//     const errorMessage = error.message;
+//     console.log(errorMessage);
+//   });
 
+// })
 
 
 
