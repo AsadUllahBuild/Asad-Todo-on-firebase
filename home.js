@@ -51,7 +51,7 @@ function renderPost() {
         card.innerHTML += `
         <div class="card">
         <div class="card-body">
-            <p class="pera" ><span>${item.todo}</span></p>
+            <p class="pera" ><span><i class="fa-solid fa-circle-check"></i>${item.todo}</span></p>
             
         </div>
         <div class="card-btn">

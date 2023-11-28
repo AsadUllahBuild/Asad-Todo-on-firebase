@@ -11,7 +11,7 @@
 .login-container {
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding: 20px;
     text-align: center;
 }
@@ -67,7 +67,7 @@ a:hover {
 .register-container {
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding: 20px;
     text-align: center;
     max-width: 400px;
@@ -105,7 +105,7 @@ form {
     align-items: center;
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .app-title {
@@ -145,7 +145,7 @@ form {
     color: #11273f;
     cursor: pointer;
     margin-right: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 20px;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -165,8 +165,8 @@ form {
 .username {
     color: #11273f;
     font-size: 20px;
-    margin-right: 10px;
-    margin-top: 20px;
+    margin-right: 5px;
+    margin-top: 25px;
     /* line-height: 28px; */
     
 }
@@ -175,9 +175,9 @@ form {
     border-radius: 9999px;
     border:none;
     /* Blue border */
-    margin-top: 5px;
-    width: 60px;
-    height: 60px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
 }
 
 .add-todo {
@@ -214,7 +214,7 @@ form {
 .card {
     background-color: #fdfdfd;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 30px;
@@ -228,13 +228,16 @@ form {
     /* border-bottom: 1px solid #ccc; */
     /* padding-bottom: 10px; */
     /* margin-bottom: 10px; */
-    color: rgb(86, 85, 85);
+    color: #1E3050;
     font-size: 20px;
-    text-decoration: underline;
   }
   
   .card-body span {
     font-weight:500;
+  }
+  .card-body span i{
+    font-size: small;
+    margin-right: 8px;
   }
   
   /* Card Buttons */
@@ -249,13 +252,13 @@ form {
     border: none;
     cursor: pointer;
     font-size: 20px;
-    color: #7d7979;
+    color: #1E3050;
     transition: color 0.3s ease;
     padding: 5px;
   }
   
   .card-btn button:hover {
-    color: #f44336;
+    color: #007bff;
   }
   
   
