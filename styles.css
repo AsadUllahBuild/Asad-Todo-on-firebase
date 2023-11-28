@@ -103,23 +103,27 @@ form {
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .app-title {
     text-align: center;
-    margin-top: 20px;
-    color: #333;
+    padding-left: 50px;
+    color: #11273f;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .top-section {
     text-align: right;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     display: flex;
     justify-content: space-between;
-    margin-right: 20px;
+    background: #ffffff;
+    /* margin-right: 20px; */
+    /* margin-left: 50px; */
 }
 
 .top-section div {
@@ -133,33 +137,47 @@ form {
 }
 
 .logout-btn {
-    /* padding: 10px 16px; */
+    /* padding: 5px; */
     border-radius: 15px;
     border: none;
-    background-color: #11273f;
-    color: white;
+    background:transparent;
+    font-size: 20px;
+    color: #11273f;
     cursor: pointer;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* width: 15%; */
 }
 
 .logout-btn:hover {
-    background-color: #c82333;
+    color: #007bff;
+    text-decoration: none;
 }
 
-.user-profile {
+/* .user-profile {
     text-align: center;
     margin-top: 20px;
-}
+} */
 
 .username {
-    color: #333;
+    color: #11273f;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    /* line-height: 28px; */
+    
 }
 
 .profile-image {
-    border-radius: 50%;
-    border: 2px solid #007bff;
+    border-radius: 9999px;
+    border:none;
     /* Blue border */
-    margin-top: 10px;
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
 }
 
 .add-todo {
@@ -171,7 +189,7 @@ form {
 }
 
 .todo-input {
-    padding: 10px;
+    padding: 19px;
     border-radius: 5px;
     border: 1px solid #ccc;
     width: 100%;
@@ -191,45 +209,56 @@ form {
     background-color: #0056b3;
 }
 
-.todo-list {
-    margin-top: 20px;
 
-
-}
-
+/* Card Styling */
 .card {
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
     display: flex;
-    gap: 30px;
     justify-content: center;
-}
-
-.pera {
-    font-size: 25px;
-    color: #333333;
-}
-
-.card-btn {
-    display: flex;
     gap: 20px;
-}
+  }
+  
+  /* Card Body */
+  .card-body {
+    /* border-bottom: 1px solid #ccc; */
+    /* padding-bottom: 10px; */
+    /* margin-bottom: 10px; */
+    color: rgb(86, 85, 85);
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .card-body span {
+    font-weight:500;
+  }
+  
+  /* Card Buttons */
+  .card-btn {
+    display: flex;
+    justify-content:space-between;
 
-#delete {
-    padding: 10px 16px;
-    border-radius: 5px;
+  }
+  
+  .card-btn button {
+    background: none;
     border: none;
-    background-color: #007bff;
-    color: white;
     cursor: pointer;
-}
-
-#update {
-    padding: 10px 16px;
-    border-radius: 5px;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-}
+    font-size: 20px;
+    color: #7d7979;
+    transition: color 0.3s ease;
+    padding: 5px;
+  }
+  
+  .card-btn button:hover {
+    color: #f44336;
+  }
+  
+  
 
 /* styles.css */
 

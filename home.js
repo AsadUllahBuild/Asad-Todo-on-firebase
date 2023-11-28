@@ -51,13 +51,14 @@ function renderPost() {
         card.innerHTML += `
         <div class="card">
         <div class="card-body">
-            <p class="pera" ><span>Todo:</span>${item.todo}</p>
+            <p class="pera" ><span>${item.todo}</span></p>
             
         </div>
         <div class="card-btn">
-            <button type="button" id="delete" >Delete</button>
-            <button type="button" id="update" >Update</button>
-        </div>
+    <button type="button" id="delete"><i class="fa-solid fa-trash-can"></i></button>
+    <button type="button" id="update"><i class="fa-solid fa-pen-to-square"></i></button>
+</div>
+
     </div>`
     })
     const del = document.querySelectorAll('#delete');
@@ -159,5 +160,4 @@ form.addEventListener('submit', async (event) => {
         }
     }
 });
-
 
