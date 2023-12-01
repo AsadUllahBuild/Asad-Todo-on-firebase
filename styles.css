@@ -57,7 +57,7 @@ button:hover {
 a {
     color: #007bff;
     text-decoration: none;
-    font-weight:200;
+    font-weight: 200;
 }
 
 a:hover {
@@ -113,7 +113,7 @@ form {
     padding-left: 50px;
     color: #11273f;
     font-size: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .top-section {
@@ -121,7 +121,7 @@ form {
     /* margin-top: 10px; */
     display: flex;
     justify-content: space-between;
-    background: #ffffff;
+    background: #007bff;
     /* margin-right: 20px; */
     /* margin-left: 50px; */
 }
@@ -133,27 +133,27 @@ form {
 
 .top-section h1 {
     margin-left: 20px;
-    color: #11273f;
+    color: #ffffff;
 }
 
 .logout-btn {
     /* padding: 5px; */
     border-radius: 15px;
     border: none;
-    background:transparent;
-    font-size: 20px;
-    color: #11273f;
+    background: transparent;
+    font-size: 18px;
+    color: #ffffff;
     cursor: pointer;
     margin-right: 30px;
     margin-left: 10px;
     margin-top: 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* width: 15%; */
 }
 
 .logout-btn:hover {
-    color: #007bff;
+    color: #ff0059;
     text-decoration: none;
 }
 
@@ -163,17 +163,17 @@ form {
 } */
 
 .username {
-    color: #11273f;
+    color: #ffffff;
     font-size: 20px;
     margin-right: 5px;
     margin-top: 25px;
     /* line-height: 28px; */
-    
+
 }
 
 .profile-image {
     border-radius: 9999px;
-    border:none;
+    border: none;
     /* Blue border */
     margin-top: 15px;
     width: 40px;
@@ -189,10 +189,25 @@ form {
 }
 
 .todo-input {
-    padding: 19px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 0.375rem;
+    border: 1px solid #007bff;
     width: 100%;
+    outline-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+        
+}
+
+::placeholder {
+    font-size: 1.125rem
+        /* 18px */
+    ;
+    line-height: 1.75rem
+        /* 28px */
+    ;
 }
 
 .add-btn {
@@ -200,15 +215,22 @@ form {
     border-radius: 5px;
     border: none;
     background-color: #007bff;
-    /* Blue add button */
+    display: inline-block;
     color: white;
     cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    animation-delay: 3s;
+    box-shadow: 0 0 5px #007bff,
+        0 0 25px #007bff
 }
 
 .add-btn:hover {
-    background-color: #0056b3;
+    box-shadow: 0 0 5px cyan,
+        0 0 5px #007bff, 0 0 5px #007bff,
+        0 0 5px #007bff, 0 0 5px #007bff;
+    background-color: #007bff;
 }
-
 
 /* Card Styling */
 .card {
@@ -221,47 +243,49 @@ form {
     display: flex;
     justify-content: center;
     gap: 20px;
-  }
-  
-  /* Card Body */
-  .card-body {
+}
+
+/* Card Body */
+.card-body {
     /* border-bottom: 1px solid #ccc; */
     /* padding-bottom: 10px; */
     /* margin-bottom: 10px; */
     color: #1E3050;
     font-size: 20px;
-  }
-  
-  .card-body span {
-    font-weight:500;
-  }
-  .card-body span i{
+}
+
+.card-body span {
+    font-weight: 500;
+}
+
+.card-body span i {
     font-size: small;
     margin-right: 8px;
-  }
-  
-  /* Card Buttons */
-  .card-btn {
-    display: flex;
-    justify-content:space-between;
+    color: #007bff;
+}
 
-  }
-  
-  .card-btn button {
+/* Card Buttons */
+.card-btn {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-btn button {
     background: none;
     border: none;
     cursor: pointer;
     font-size: 20px;
-    color: #1E3050;
+    color: #007bff;
     transition: color 0.3s ease;
     padding: 5px;
-  }
-  
-  .card-btn button:hover {
-    color: #007bff;
-  }
-  
-  
+}
+
+.card-btn button:hover {
+    color: #ff0059;
+}
+
+
 
 /* styles.css */
 
@@ -287,10 +311,12 @@ form {
     cursor: pointer;
 
 }
-.google-icon-wrapper img{
+
+.google-icon-wrapper img {
     margin-right: 10px;
 }
-#github-btn{
+
+#github-btn {
     background: transparent;
     padding: 10px;
     margin: 0;
@@ -299,7 +325,8 @@ form {
     font-size: 16px;
     cursor: pointer;
 }
-.github-icon{
+
+.github-icon {
     width: 20px;
     height: 20px;
 }
